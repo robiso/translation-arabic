@@ -1,5 +1,5 @@
 OVERLAYS
-    ">Saving","> إنقاذ"
+    ">Saving","> جاري الحفظ"
     ">Checking for updates",">البحث عن تحديثات"
 
 
@@ -27,8 +27,14 @@ CURRENT PAGE
 MENU
     ">Website title","> عنوان الموقع"
     ">Page to display on homepage","> الصفحة المراد عرضها على الصفحة الرئيسية"
-    ">visit",">يزور"
+    ">visit",">زيارة"
     "> Add page","> إضافة صفحة"
+	" subpage"," صفحة إضافية"
+	">SEO \(Search Engine Optimization\)",">تحسينات لمحركات البحث"
+	"Generate sitemap.txt and robots.txt","SITEMAP.TXT ROBOTS.TXT توليد ملفات جديده"
+	"Delete page","حذف الصفحة"
+	"Hide page from menu","إخفاء الصفحة من القائمة الرئيسية للزوار"
+	"Show page in menu","إظهار الصفحة فى القائمة الرئيسية للزوار"
 
 
 FILES
@@ -47,18 +53,22 @@ THEMES AND PLUGINS
     ">Installed version:",">الإصدار المثبت:"
     ">Custom repository",">مستودع مخصص"
     "Enter URL to custom repository","أدخل URL إلى مستودع مخصص"
-    "> Add", "> يضيف"
+    "> Add", "> إضافة"
     "> Read more about custom repositories",">اقرأ المزيد عن المستودع المخصص"
+	">ON", ">تفعيل"
+	">OFF", ">تعطيل"
+	"Remove", "إزالة"
 
 
 SECURITY
     ">Admin login URL","> عنوان URL لتسجيل دخول المسؤول"
-    ">Save your login URL to log in to your website next time:",">احفظ عنوان url الخاص بتسجيل الدخول لتسجيل الدخول إلى موقع الويب الخاص بك في المرة القادمة:"
-    ">Password",">كلمه السر"
+    ">Important: save your login URL to log in to your website next time:",">احفظ العنوان الخاص بتسجيل الدخول لتسجيل الدخول إلى موقع الويب الخاص بك في المرة القادمة:"
+    ">Password",">كلمة السر"
     "Old password","كلمة سر قديمة"
     "New password","كلمة السر الجديدة"
+	"Repeat new password","إعادة كلمة السر الجديدة"
     "> Change password","> تغيير كلمة المرور"
-
+	">WonderCMS automatically checks for SSL, this will force to always use HTTPS.",">SSL سنقوم دائما بالتحقق من وجود اتصال أمن وإجبار المستخدمين على استخدامه"
     "> How to restore backup","> كيفية استعادة النسخة الاحتياطية"
     ">Improved security \(Apache only\)",">تحسين الأمن (اباتشي فقط)"
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">إعادة توجيه HTTPS ، والتخزين المؤقت لمدة 30 يومًا ، وإطارات iframe المسموح بها فقط من نفس المصدر ، ومنع الاستنشاق من نوع Mime ، وسياسة ملفات تعريف الارتباط والمراجع الأكثر صرامة."
@@ -66,6 +76,9 @@ SECURITY
     ">OFF \(reset htaccess to default\)",">إيقاف (إعادة تعيين htaccess إلى الافتراضي)"
     "> Read more before enabling","> اقرأ المزيد قبل التمكين"
     ">Backup","> دعم"
+	">Save confirmation popup",">إظهار إشعار لسؤالك قبل الحفظ"
+	">If this is turned on, WonderCMS will always ask you to confirm any changes you make.",">إذا تم تفعيل هذا الخيار فسنقوم بسؤالك فى كل مره عن حفظه ام لا"
+	">Force HTTPS","> إجبار المستخدمين على استخدام الاتصال الامن"
     "> Backup website","> موقع النسخ الاحتياطي"
     ">Last 5 logins",">آخر 5 عمليات تسجيل دخول"
 
