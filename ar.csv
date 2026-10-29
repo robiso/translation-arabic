@@ -21,7 +21,8 @@ CURRENT PAGE
     ">Page keywords",">الصفحة الرئيسية"
     ">Page description",">الصفحة الوصف"
     "> Delete page","> حذف الصفحة"
-    "return confirm\('Delete (.*?)\?'\)","عودة تأكيد(' $1?')"
+    "return confirm\('Delete (.*?)\?'\)","return confirm('حذف $1؟')"
+    "data-confirm=""Delete (.*?)\?""","data-confirm=""حذف $1؟"""
 
 
 MENU
@@ -44,10 +45,12 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> تحقق من وجود تحديثات"
-    "return confirm\('Remove (.*?)\?'\)","تأكيد الإرجاع ("إزالة $ 1؟")"
+    "return confirm\('Remove (.*?)\?'\)","return confirm('إزالة $1؟')"
+    "data-confirm=""Remove (.*?)\?""","data-confirm=""إزالة $1؟"""
     ">Active",">نشيط"
-    "return confirm\('Activate (.*?) theme\?'\)","تأكيد الإرجاع ("تنشيط $ 1؟")
-    "> Activate","> تفعيل
+    "return confirm\('Activate (.*?) theme\?'\)","return confirm('تفعيل $1؟')"
+    "data-confirm=""Activate (.*?) theme\?""","data-confirm=""تفعيل $1؟"""
+    "> Activate","> تفعيل"
     "> More info","> مزيد من المعلومات"
     "> Install","> تثبيت"
     ">Installed version:",">الإصدار المثبت:"
