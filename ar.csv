@@ -5,6 +5,7 @@ OVERLAYS
 
 BUTTONS
     "> Settings","> الإعدادات"
+    "return confirm\('Log out\?'\)","return confirm('تسجيل الخروج؟')"
 
 
 MENU ITEMS
@@ -29,6 +30,10 @@ MENU
     ">Website title","> عنوان الموقع"
     ">Page to display on homepage","> الصفحة المراد عرضها على الصفحة الرئيسية"
     ">visit",">زيارة"
+    "title=""Make page private \(only you see it while logged in\)""","title=""جعل الصفحة خاصة (تراها أنت فقط أثناء تسجيل الدخول)"""
+    "title=""Make page public""","title=""جعل الصفحة عامة"""
+    "lockIcon""><\/i> private<\/a>","lockIcon""></i> خاصة</a>"
+    "lockIcon""><\/i> public<\/a>","lockIcon""></i> عامة</a>"
     "> Add page","> إضافة صفحة"
 	" subpage"," صفحة إضافية"
 	">SEO \(Search Engine Optimization\)",">تحسينات لمحركات البحث"
@@ -45,17 +50,24 @@ FILES
 
 THEMES AND PLUGINS
     "> Check for updates","> تحقق من وجود تحديثات"
+    "title=""Remove this repository from the list""","title=""إزالة هذا المستودع من القائمة"""
+    "data-confirm=""Remove (.*?)\? Anything installed from it stays\.""","data-confirm=""إزالة $1؟ كل ما تم تثبيته منه يبقى."""
     "return confirm\('Remove (.*?)\?'\)","return confirm('إزالة $1؟')"
     "data-confirm=""Remove (.*?)\?""","data-confirm=""إزالة $1؟"""
     ">Active",">نشيط"
     "return confirm\('Activate (.*?) theme\?'\)","return confirm('تفعيل $1؟')"
     "data-confirm=""Activate (.*?) theme\?""","data-confirm=""تفعيل $1؟"""
+    "data-confirm=""Disable (.*?)\?""","data-confirm=""تعطيل $1؟"""
+    "data-confirm=""This is an (.*?) plugin\. Installing (.*?) will disable (.*?)\. Continue\?""","data-confirm=""هذه إضافة من نوع $1. تثبيت $2 سيعطل $3. هل تريد المتابعة؟"""
+    "data-confirm=""This is an (.*?) plugin\. Updating (.*?) will keep it enabled and disable (.*?)\. Continue\?""","data-confirm=""هذه إضافة من نوع $1. تحديث $2 سيبقيها مفعلة ويعطل $3. هل تريد المتابعة؟"""
+    "data-confirm=""This is an (.*?) plugin\. Enabling (.*?) will disable (.*?)\. Continue\?""","data-confirm=""هذه إضافة من نوع $1. تفعيل $2 سيعطل $3. هل تريد المتابعة؟"""
     "> Activate","> تفعيل"
     "> More info","> مزيد من المعلومات"
     "> Install","> تثبيت"
     ">Installed version:",">الإصدار المثبت:"
     ">Custom repository",">مستودع مخصص"
     "Enter URL to custom repository","أدخل URL إلى مستودع مخصص"
+    "return confirm\('Adding unknown modules can be VERY dangerous, are you sure you want to continue\?'\)","return confirm('إضافة وحدات غير معروفة قد تكون خطيرة جدا، هل أنت متأكد أنك تريد المتابعة؟')"
     "> Add", "> إضافة"
     "> Read more about custom repositories",">اقرأ المزيد عن المستودع المخصص"
 	">ON", ">تفعيل"
@@ -77,6 +89,7 @@ SECURITY
     ">HTTPS redirect, 30 day caching, iframes allowed only from same origin, mime type sniffing prevention, stricter cookie and refferer policy.",">إعادة توجيه HTTPS ، والتخزين المؤقت لمدة 30 يومًا ، وإطارات iframe المسموح بها فقط من نفس المصدر ، ومنع الاستنشاق من نوع Mime ، وسياسة ملفات تعريف الارتباط والمراجع الأكثر صرامة."
     ">ON \(warning: may break your website\)",">قيد التشغيل (تحذير: قد يؤدي إلى تعطل موقعك)"
     ">OFF \(reset htaccess to default\)",">إيقاف (إعادة تعيين htaccess إلى الافتراضي)"
+    "return confirm\('Are you sure\? This might break your website if you do not have SSL configured correctly\.'\)","return confirm('هل أنت متأكد؟ قد يؤدي هذا إلى تعطل موقعك إذا لم يكن SSL مضبوطا بشكل صحيح.')"
     "> Read more before enabling","> اقرأ المزيد قبل التمكين"
     ">Backup","> دعم"
 	">Save confirmation popup",">إظهار إشعار لسؤالك قبل الحفظ"
